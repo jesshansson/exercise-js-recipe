@@ -1,7 +1,7 @@
 //1-----------
 //Name of the recipe
 const nameOfRecipeRef = document.getElementById("recipe-name");
-let nameOfRecipe = nameOfRecipeRef.textContent;
+const nameOfRecipe = nameOfRecipeRef.textContent;
 console.log(`Recipe name: ${nameOfRecipe}`);
 
 //2-----------

@@ -20,6 +20,10 @@ let fontSize = fontSizeStyle.fontSize;
 
 console.log(`Font size of element: ${fontSize}`);
 
+// OR:
+let fontSizeP = document.querySelector("p.description");
+console.log(`Font size of p description: ${getComputedStyle(fontSizeP).fontSize} `);
+
 //4. Value of the alt atrribute on the image
 let altText = document.querySelector("img").alt;
 console.log(`Alt text on image: ${altText}`);
@@ -61,4 +65,4 @@ instructionsRef.forEach((element, index) => {
   instructionsArray.push(instructionObject);
 });
 
-console.log(`Instructions: ${instructionsArray}`);
+console.log("Instructions:", instructionsArray);
